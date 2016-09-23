@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(400,400);
+  background(0);
+}
+
+function draw() {
+  fill(255);
+  for(a=20; a<480; a=a+20){
+      for(var b=40; b<480; b=b+20){
+    ellipseMode(CENTER);
+    ellipse(a,b,20,20);
+      }
+  }
+
+}
