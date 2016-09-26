@@ -1,0 +1,16 @@
+function setup(){
+  createCanvas(850,850);
+  background(0);
+  }
+function draw(){
+
+  colorMode(HSB);
+  for(a=40; a<820; a=a+35){
+      for(var b=40; b<820; b=b+35){
+  noStroke();
+  fill(360*(1.8*a/35+55*b/35)/1640,100,100);
+    ellipse(a,b,20,20);
+      }
+  }
+
+}
